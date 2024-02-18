@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smash Boot: Elevate your style with our curated collection of trendy and comfortable footwear. Step into fashion at Smash Boot's exclusive shoe-shopping haven!" />
+    <meta name="keywords" content="HTML, CSS, Javascript, (Portfolio Website)" />
+    <meta name="author" content="Harshvardhan Sharma" />
+    <title>Smash Boot</title>
+
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Cinzel&family=Dosis:wght@300&family=Handjet:wght@300&family=Josefin+Sans:wght@300&family=Kalam:wght@300&family=Mate+SC&family=Oswald:wght@200&family=Patrick+Hand&family=Poppins:wght@200&family=Press+Start+2P&family=Saira:wght@300&family=Satisfy&family=Source+Code+Pro:ital,wght@1,300&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script defer src="men.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.avif" alt="logo">
+            <h2>Smash Boot</h2>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/men.html">Men's Collection</a></li>
+                <li><a href="/women.html">Women's Collection</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <i name="ham" class="fa-solid fa-bars mobile-nav-icon"></i>
+            <i name="cross" class="fa-solid fa-xmark mobile-nav-icon"></i>
+        </div>
+    </header>
+
+    <!-- Buy Section -->
+
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <h2 class="common-heading">Buy Now&nbsp; <i class="fa-brands fa-shopify"></i></i></h2>
+        </div>
+
+        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.58771735367!2d77.93473398378957!3d30.3255508049571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1707394666507!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xdoqevwj" method="POST">
+                <div class="grid grid-two-columns">
+                    <input id="name" name="Name" type="text" placeholder="Name 👤" required autocomplete="off">
+                    <input id="email" name="Email" type="email" placeholder="Email 📧" required autocomplete="off">
+                </div>
+                <div>
+                    <input id="subject" name="subject" type="text" placeholder="Subject 🔦" required autocomplete="off">
+                </div>
+                <div>
+                    <select name="Category" id="category" required>
+                        <option value="men">Men's Collection 👟</option>
+                        <option value="women">Women's Collection 👠</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Give your order ✔️" required autocomplete="off"></textarea>
+                </div>
+                <div>
+                    <input id="submit" name="submit" type="submit" class="btn" value="Buy Now 🛒">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="section section-footer">
+        <div class="container grid grid-three-columns">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>Smash Boot, your go-to online shoe store, delivers trendy footwear for men and women, ensuring quality, style, and customer satisfaction.</p>
+            </div>
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="/index.html"><i class="fa-solid fa-arrow-right"></i>&nbsp; Home</a></li>
+                    <li><a href="/men.html"><i class="fa-solid fa-arrow-right"></i>&nbsp; Men's Collection</a></li>
+                    <li><a href="/women.html"><i class="fa-solid fa-arrow-right"></i>&nbsp; Women's Collection</a></li>
+                </ul>
+            </div>
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div><p><i class="fa-solid fa-location-dot"></i> Dehradun, Uttarakhand, India</p></div>
+                    <div><p><i class="fa-solid fa-phone"></i> <a href="tel:+919149349278">+91 9149349278</a></p></div>
+                    <div><p><i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:3469harshsharma@gmail.com">3469harshsharma@gmail.com</a></p></div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-credits">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 All right reserved || This website is made with <i class="fa-regular fa-heart"></i> Harshvardhan Sharma</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top-style">
+        <i class="fa-solid fa-arrow-up scroll-top"></i>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c855874020.js" crossorigin="anonymous"></script>
+</body>
+</html>
