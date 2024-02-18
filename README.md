@@ -1,4 +1,4 @@
-Go To Website 👉 smashboot.netlify.app
+Go To Website 👉 https://smashboot.netlify.app/
 
 Smash Boot, an innovative online shoe store, has swiftly carved its niche in the competitive world of e-commerce by redefining the shoe-shopping experience. With a mission to blend fashion, comfort, and affordability, Smash Boot caters to diverse tastes and preferences, ensuring every customer finds their perfect pair.
 
